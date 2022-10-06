@@ -7,4 +7,3 @@ while brick.ColorRGB(1) == 0
     brick.MoveMotor('D', 20);
     pause(1);
 end
-hhh
