@@ -1,9 +1,7 @@
-mySonicSensor = sonicSensor(brick,3);
-distance = readDistance(mySonicSensor);
+distance = brick.Ultrasonicdist(3);
 disp distance
 
-if (distance == 26)
+if (distance <= 23)
     %intiate the turn left sequence
-else
-    %continue the robots movement
+    
 end
